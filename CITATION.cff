@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use CORE-RT, please cite the archived software release."
+type: software
+title: "CORE-RT: Corrective Resolution under Equal-Compute Read-Time Map-Reduce"
+authors:
+  - family-names: Mayende
+    given-names: Alvin
+    affiliation: Independent Researcher
+abstract: "CORE-RT is a timestamp-free benchmark for testing persisted write-time belief revision against an equal-compute read-time correction resolver on explicit corrective current-value queries."
+repository-code: "https://github.com/alvinmurimi/CORE-RT"
+url: "https://github.com/alvinmurimi/CORE-RT"
+license: Apache-2.0
+version: 1.0.0
+date-released: "2026-06-19"
+keywords:
+  - agent-memory
+  - belief-revision
+  - benchmark
+  - corrective-reasoning
+  - llm-evaluation
+  - map-reduce
+  - rag
+  - retrieval-augmented-generation
+  - synthetic-data

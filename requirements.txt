@@ -1,0 +1,3 @@
+httpx
+scikit-learn
+scipy

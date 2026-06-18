@@ -1,0 +1,3275 @@
+{
+  "kind": "deterministic_visible_text_confirmation",
+  "data": "data\\cases.jsonl",
+  "families": [
+    "A",
+    "C"
+  ],
+  "chunk": 12,
+  "summary": {
+    "by_family": {
+      "A": {
+        "n": 60,
+        "memory_accuracy": 1.0,
+        "reader_accuracy": 1.0,
+        "memory_leak": 0.0,
+        "reader_leak": 0.0,
+        "memory_abstain": 0.0,
+        "reader_abstain": 0.0
+      },
+      "C": {
+        "n": 60,
+        "memory_accuracy": 1.0,
+        "reader_accuracy": 1.0,
+        "memory_leak": 0.0,
+        "reader_leak": 0.0,
+        "memory_abstain": 1.0,
+        "reader_abstain": 1.0
+      }
+    },
+    "family_a_memory_only_right": 0,
+    "family_a_reader_only_right": 0
+  },
+  "rows": [
+    {
+      "id": "C-0003",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-neg-0028",
+      "family": "A",
+      "memory_answer": "the Tarulm Office",
+      "reader_answer": "the Tarulm Office",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "A-0015",
+      "family": "A",
+      "memory_answer": "the Tiusskel Assembly",
+      "reader_answer": "the Tiusskel Assembly",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0051",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-neg-0050",
+      "family": "A",
+      "memory_answer": "Wendprmagg Group",
+      "reader_answer": "Wendprmagg Group",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0001",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "C-0049",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "C-0047",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-0037",
+      "family": "A",
+      "memory_answer": "Gormlorn Systems",
+      "reader_answer": "Gormlorn Systems",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0039",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "C-0011",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-neg-0040",
+      "family": "A",
+      "memory_answer": "the Vaskprmagg Trust",
+      "reader_answer": "the Vaskprmagg Trust",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "A-neg-0036",
+      "family": "A",
+      "memory_answer": "Braemal Partners",
+      "reader_answer": "Braemal Partners",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "A-0039",
+      "family": "A",
+      "memory_answer": "Gormrhad Holdings",
+      "reader_answer": "Gormrhad Holdings",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0029",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "C-0027",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-0013",
+      "family": "A",
+      "memory_answer": "Svalzel Holdings",
+      "reader_answer": "Svalzel Holdings",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "A-neg-0038",
+      "family": "A",
+      "memory_answer": "Vohlpyx Group",
+      "reader_answer": "Vohlpyx Group",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "A-neg-0012",
+      "family": "A",
+      "memory_answer": "Hevfyl Industries",
+      "reader_answer": "Hevfyl Industries",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "A-0021",
+      "family": "A",
+      "memory_answer": "the Grauquoll Compact",
+      "reader_answer": "the Grauquoll Compact",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "A-0019",
+      "family": "A",
+      "memory_answer": "the Xilmyr Bureau",
+      "reader_answer": "the Xilmyr Bureau",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0043",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "C-0052",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-neg-0020",
+      "family": "A",
+      "memory_answer": "the Xilskel Consortium",
+      "reader_answer": "the Xilskel Consortium",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0026",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-0017",
+      "family": "A",
+      "memory_answer": "the Eskulm Compact",
+      "reader_answer": "the Eskulm Compact",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0028",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-0033",
+      "family": "A",
+      "memory_answer": "the Xilgrau Compact",
+      "reader_answer": "the Xilgrau Compact",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "A-neg-0018",
+      "family": "A",
+      "memory_answer": "Skelvon Works",
+      "reader_answer": "Skelvon Works",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0032",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "C-0014",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-neg-0014",
+      "family": "A",
+      "memory_answer": "Svalskel Holdings",
+      "reader_answer": "Svalskel Holdings",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "A-0031",
+      "family": "A",
+      "memory_answer": "the Yarnquen Trust",
+      "reader_answer": "the Yarnquen Trust",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "A-0035",
+      "family": "A",
+      "memory_answer": "Pyxsed Group",
+      "reader_answer": "Pyxsed Group",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "A-0001",
+      "family": "A",
+      "memory_answer": "the Woljarr Directorate",
+      "reader_answer": "the Woljarr Directorate",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "A-0057",
+      "family": "A",
+      "memory_answer": "the Eskuvarn Directorate",
+      "reader_answer": "the Eskuvarn Directorate",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "A-neg-0010",
+      "family": "A",
+      "memory_answer": "the Esknyx Office",
+      "reader_answer": "the Esknyx Office",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "A-0009",
+      "family": "A",
+      "memory_answer": "the Uvarnpyx Syndicate",
+      "reader_answer": "the Uvarnpyx Syndicate",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "A-neg-0004",
+      "family": "A",
+      "memory_answer": "Brynmyr Systems",
+      "reader_answer": "Brynmyr Systems",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "A-neg-0032",
+      "family": "A",
+      "memory_answer": "the Lomeyaric Trust",
+      "reader_answer": "the Lomeyaric Trust",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0019",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-0023",
+      "family": "A",
+      "memory_answer": "the Jarrrhad Office",
+      "reader_answer": "the Jarrrhad Office",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0040",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-0029",
+      "family": "A",
+      "memory_answer": "Ishwol Holdings",
+      "reader_answer": "Ishwol Holdings",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0012",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-neg-0042",
+      "family": "A",
+      "memory_answer": "Pellgrau Partners",
+      "reader_answer": "Pellgrau Partners",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0034",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-0045",
+      "family": "A",
+      "memory_answer": "the Tarkor Charter",
+      "reader_answer": "the Tarkor Charter",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0037",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-neg-0052",
+      "family": "A",
+      "memory_answer": "the Quenthrex Syndicate",
+      "reader_answer": "the Quenthrex Syndicate",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0056",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "C-0038",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "C-0045",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-neg-0046",
+      "family": "A",
+      "memory_answer": "the Ishvohl Assembly",
+      "reader_answer": "the Ishvohl Assembly",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "A-neg-0054",
+      "family": "A",
+      "memory_answer": "Kaeluvarn Works",
+      "reader_answer": "Kaeluvarn Works",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0042",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "C-0023",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "C-0017",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-0049",
+      "family": "A",
+      "memory_answer": "Vaskpell Union",
+      "reader_answer": "Vaskpell Union",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0033",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "C-0036",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-0051",
+      "family": "A",
+      "memory_answer": "the Haskquen Assembly",
+      "reader_answer": "the Haskquen Assembly",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "A-0003",
+      "family": "A",
+      "memory_answer": "the Hasktar Directorate",
+      "reader_answer": "the Hasktar Directorate",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0050",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "C-0016",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-0043",
+      "family": "A",
+      "memory_answer": "the Sedfyl Foundation",
+      "reader_answer": "the Sedfyl Foundation",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0024",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-0011",
+      "family": "A",
+      "memory_answer": "the Rhadlome Authority",
+      "reader_answer": "the Rhadlome Authority",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0005",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "C-0054",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "C-0013",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-0041",
+      "family": "A",
+      "memory_answer": "Ilvxil Works",
+      "reader_answer": "Ilvxil Works",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "A-0027",
+      "family": "A",
+      "memory_answer": "the Braezoth Assembly",
+      "reader_answer": "the Braezoth Assembly",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0010",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-neg-0022",
+      "family": "A",
+      "memory_answer": "Lomedree Group",
+      "reader_answer": "Lomedree Group",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0020",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-neg-0044",
+      "family": "A",
+      "memory_answer": "the Myrtar Council",
+      "reader_answer": "the Myrtar Council",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0059",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "C-0002",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-neg-0008",
+      "family": "A",
+      "memory_answer": "Kaelquen Systems",
+      "reader_answer": "Kaelquen Systems",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0057",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "C-0048",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "C-0007",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "C-0030",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-neg-0048",
+      "family": "A",
+      "memory_answer": "Prmaggfyl Partners",
+      "reader_answer": "Prmaggfyl Partners",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0009",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "C-0008",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "C-0041",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-0047",
+      "family": "A",
+      "memory_answer": "the Ishvon Charter",
+      "reader_answer": "the Ishvon Charter",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "A-0025",
+      "family": "A",
+      "memory_answer": "Zonndree Group",
+      "reader_answer": "Zonndree Group",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0044",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "C-0022",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "C-0053",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-0059",
+      "family": "A",
+      "memory_answer": "Haskskel Holdings",
+      "reader_answer": "Haskskel Holdings",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0021",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-neg-0056",
+      "family": "A",
+      "memory_answer": "the Lornbryn Trust",
+      "reader_answer": "the Lornbryn Trust",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0015",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-0055",
+      "family": "A",
+      "memory_answer": "Threxoss Union",
+      "reader_answer": "Threxoss Union",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0055",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-neg-0002",
+      "family": "A",
+      "memory_answer": "Xilsed Works",
+      "reader_answer": "Xilsed Works",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0018",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-neg-0006",
+      "family": "A",
+      "memory_answer": "the Jarrpyx Council",
+      "reader_answer": "the Jarrpyx Council",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "A-0005",
+      "family": "A",
+      "memory_answer": "Fylzonn Systems",
+      "reader_answer": "Fylzonn Systems",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "A-neg-0026",
+      "family": "A",
+      "memory_answer": "the Wolhev Bureau",
+      "reader_answer": "the Wolhev Bureau",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0031",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-neg-0058",
+      "family": "A",
+      "memory_answer": "the Yariczonn Consortium",
+      "reader_answer": "the Yariczonn Consortium",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0058",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-neg-0000",
+      "family": "A",
+      "memory_answer": "the Lornzel Compact",
+      "reader_answer": "the Lornzel Compact",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0035",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-0007",
+      "family": "A",
+      "memory_answer": "Ishgorm Holdings",
+      "reader_answer": "Ishgorm Holdings",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0004",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-neg-0024",
+      "family": "A",
+      "memory_answer": "the Vasktar Charter",
+      "reader_answer": "the Vasktar Charter",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "A-0053",
+      "family": "A",
+      "memory_answer": "the Prmaggzoth Bureau",
+      "reader_answer": "the Prmaggzoth Bureau",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0046",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "C-0000",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "C-0006",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-neg-0030",
+      "family": "A",
+      "memory_answer": "the Ishmal Foundation",
+      "reader_answer": "the Ishmal Foundation",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "A-neg-0016",
+      "family": "A",
+      "memory_answer": "the Zothjarr Syndicate",
+      "reader_answer": "the Zothjarr Syndicate",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    },
+    {
+      "id": "C-0025",
+      "family": "C",
+      "memory_answer": "UNRESOLVED",
+      "reader_answer": "UNRESOLVED",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": true,
+        "asserts": {
+          "true": false,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 44
+    },
+    {
+      "id": "A-neg-0034",
+      "family": "A",
+      "memory_answer": "the Runddorn Charter",
+      "reader_answer": "the Runddorn Charter",
+      "memory": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "reader": {
+        "correct": true,
+        "leaked": false,
+        "abstained": false,
+        "asserts": {
+          "true": true,
+          "poison": false,
+          "new": false
+        }
+      },
+      "parsed_edges": 46
+    }
+  ]
+}

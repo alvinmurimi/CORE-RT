@@ -1,0 +1,554 @@
+{
+  "config": {
+    "per_family": 30,
+    "k_poison": 4,
+    "Ns": "30,120,480,1920,5000",
+    "ks": "4,10,20,40",
+    "seed": 7,
+    "hybrid_m": 6,
+    "dims": 128,
+    "out": "data/slope_retrieval.json"
+  },
+  "rows": [
+    {
+      "N": 30,
+      "k": 4,
+      "policy": "sem_topk",
+      "n": 30,
+      "accuracy": 0.0,
+      "leak": 1.0,
+      "retraction_recall": 0.0
+    },
+    {
+      "N": 30,
+      "k": 4,
+      "policy": "cell_scoped",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 30,
+      "k": 4,
+      "policy": "hybrid",
+      "n": 30,
+      "accuracy": 0.367,
+      "leak": 0.333,
+      "retraction_recall": 0.667
+    },
+    {
+      "N": 30,
+      "k": 10,
+      "policy": "sem_topk",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 30,
+      "k": 10,
+      "policy": "cell_scoped",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 30,
+      "k": 10,
+      "policy": "hybrid",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 30,
+      "k": 20,
+      "policy": "sem_topk",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 30,
+      "k": 20,
+      "policy": "cell_scoped",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 30,
+      "k": 20,
+      "policy": "hybrid",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 30,
+      "k": 40,
+      "policy": "sem_topk",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 30,
+      "k": 40,
+      "policy": "cell_scoped",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 30,
+      "k": 40,
+      "policy": "hybrid",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 120,
+      "k": 4,
+      "policy": "sem_topk",
+      "n": 30,
+      "accuracy": 0.0,
+      "leak": 1.0,
+      "retraction_recall": 0.0
+    },
+    {
+      "N": 120,
+      "k": 4,
+      "policy": "cell_scoped",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 120,
+      "k": 4,
+      "policy": "hybrid",
+      "n": 30,
+      "accuracy": 0.333,
+      "leak": 0.433,
+      "retraction_recall": 0.567
+    },
+    {
+      "N": 120,
+      "k": 10,
+      "policy": "sem_topk",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 120,
+      "k": 10,
+      "policy": "cell_scoped",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 120,
+      "k": 10,
+      "policy": "hybrid",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 120,
+      "k": 20,
+      "policy": "sem_topk",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 120,
+      "k": 20,
+      "policy": "cell_scoped",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 120,
+      "k": 20,
+      "policy": "hybrid",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 120,
+      "k": 40,
+      "policy": "sem_topk",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 120,
+      "k": 40,
+      "policy": "cell_scoped",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 120,
+      "k": 40,
+      "policy": "hybrid",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 480,
+      "k": 4,
+      "policy": "sem_topk",
+      "n": 30,
+      "accuracy": 0.767,
+      "leak": 0.233,
+      "retraction_recall": 0.767
+    },
+    {
+      "N": 480,
+      "k": 4,
+      "policy": "cell_scoped",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 480,
+      "k": 4,
+      "policy": "hybrid",
+      "n": 30,
+      "accuracy": 0.5,
+      "leak": 0.2,
+      "retraction_recall": 0.8
+    },
+    {
+      "N": 480,
+      "k": 10,
+      "policy": "sem_topk",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 480,
+      "k": 10,
+      "policy": "cell_scoped",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 480,
+      "k": 10,
+      "policy": "hybrid",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 480,
+      "k": 20,
+      "policy": "sem_topk",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 480,
+      "k": 20,
+      "policy": "cell_scoped",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 480,
+      "k": 20,
+      "policy": "hybrid",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 480,
+      "k": 40,
+      "policy": "sem_topk",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 480,
+      "k": 40,
+      "policy": "cell_scoped",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 480,
+      "k": 40,
+      "policy": "hybrid",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 1920,
+      "k": 4,
+      "policy": "sem_topk",
+      "n": 30,
+      "accuracy": 0.8,
+      "leak": 0.2,
+      "retraction_recall": 0.8
+    },
+    {
+      "N": 1920,
+      "k": 4,
+      "policy": "cell_scoped",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 1920,
+      "k": 4,
+      "policy": "hybrid",
+      "n": 30,
+      "accuracy": 0.333,
+      "leak": 0.333,
+      "retraction_recall": 0.667
+    },
+    {
+      "N": 1920,
+      "k": 10,
+      "policy": "sem_topk",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 1920,
+      "k": 10,
+      "policy": "cell_scoped",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 1920,
+      "k": 10,
+      "policy": "hybrid",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 1920,
+      "k": 20,
+      "policy": "sem_topk",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 1920,
+      "k": 20,
+      "policy": "cell_scoped",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 1920,
+      "k": 20,
+      "policy": "hybrid",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 1920,
+      "k": 40,
+      "policy": "sem_topk",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 1920,
+      "k": 40,
+      "policy": "cell_scoped",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 1920,
+      "k": 40,
+      "policy": "hybrid",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 5000,
+      "k": 4,
+      "policy": "sem_topk",
+      "n": 30,
+      "accuracy": 0.933,
+      "leak": 0.033,
+      "retraction_recall": 0.933
+    },
+    {
+      "N": 5000,
+      "k": 4,
+      "policy": "cell_scoped",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 5000,
+      "k": 4,
+      "policy": "hybrid",
+      "n": 30,
+      "accuracy": 0.5,
+      "leak": 0.267,
+      "retraction_recall": 0.733
+    },
+    {
+      "N": 5000,
+      "k": 10,
+      "policy": "sem_topk",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 5000,
+      "k": 10,
+      "policy": "cell_scoped",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 5000,
+      "k": 10,
+      "policy": "hybrid",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 5000,
+      "k": 20,
+      "policy": "sem_topk",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 5000,
+      "k": 20,
+      "policy": "cell_scoped",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 5000,
+      "k": 20,
+      "policy": "hybrid",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 5000,
+      "k": 40,
+      "policy": "sem_topk",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 5000,
+      "k": 40,
+      "policy": "cell_scoped",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    },
+    {
+      "N": 5000,
+      "k": 40,
+      "policy": "hybrid",
+      "n": 30,
+      "accuracy": 1.0,
+      "leak": 0.0,
+      "retraction_recall": 1.0
+    }
+  ]
+}
