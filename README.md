@@ -1,5 +1,7 @@
 # CORE-RT: Corrective Resolution under Equal-Compute Read-Time Map-Reduce
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20753851.svg)](https://doi.org/10.5281/zenodo.20753851)
+
 CORE-RT is a benchmark for one narrow question:
 
 > If notes contain explicit corrections, does resolving those corrections once at write time and caching

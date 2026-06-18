@@ -9,6 +9,7 @@ authors:
 abstract: "CORE-RT is a timestamp-free benchmark for testing persisted write-time belief revision against an equal-compute read-time correction resolver on explicit corrective current-value queries."
 repository-code: "https://github.com/alvinmurimi/CORE-RT"
 url: "https://github.com/alvinmurimi/CORE-RT"
+doi: 10.5281/zenodo.20753851
 license: Apache-2.0
 version: 1.0.0
 date-released: "2026-06-19"
